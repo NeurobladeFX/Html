@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,54 +7,61 @@
 </head>
 <body>
   <h1><img src="logo.PNG" alt="UEpedia logo" width="120" height="80">UEpedia</h1>
-  <i>
-  <u>
-  <p id ="p1">Best tricks for make Anime character for UE4 and UE5 game.</p>
-  </i>
-  </u>
-<p id="p2">
-Today we discuss how can we make anime characters and use it in UE4 and UE5 project. First we need to know how can make anime character, For creating anime character first we need to download VRoid Studio.
-VRoid Studio is a free 3D character creation software that allows users to create anime-style characters easily. You can download it from the official website: <a href="https://vroid.com/en/studio", target="_blank" style="color:#8ab4ff;">https://vroid.com/en/studio,</a>
-</p>
- <div id="monetag-banner" style="text-align:center; margin:20px 0;">
+
+  <p id="p1"><i><u>Best tricks for making Anime characters for UE4 and UE5 games.</u></i></p>
+
+  <p id="p2">
+    Today we discuss how to make anime characters and use them in UE4 and UE5 projects.
+    First, we need to download VRoid Studio — a free 3D character creation software that allows
+    users to create anime-style characters easily.
+    You can download it from the official website:
+    <a href="https://vroid.com/en/studio" target="_blank" style="color:#8ab4ff;">https://vroid.com/en/studio</a>
+  </p>
+
+  <!-- ✅ Monetag Banner Section -->
+  <div id="monetag-banner" style="text-align:center; margin:20px 0; min-height:100px;">
     <script src="https://fpyf8.com/88/tag.min.js" data-zone="176235" async data-cfasync="false"></script>
   </div>
- <p  style="white-space: pre-line;">
-After downloading and installing VRoid Studio, follow these steps to create your anime character: <br>
-1. Open the VRoid Studio application. <br>
-2. Click on the "Create Character" button. <br>
-<img src="Capturevr.PNG" alt="VRoid Studio" id="Vroid" onclick="showImage(this.src)"><br>
-</div><br>
-3. In the character creation window, click on the "Create" button. <br><br>
-4. Once the character is created, you can export it in the VRM format.<br><br>
-5. To export the character, go to the "Export as VRM".<br><br>
-<img src="Capturex.PNG" alt="VRoid Studio" id="Vroid" onclick="showImage(this.src)"><br><br>
-6.  Save the file to your desired location.<br><br>
-7.Now install the VRM4U plugin in your UE5 project. You can download it from the official GitHub repository: <a href="https://github.com/ruyo/VRM4U/releases", target="_blank" style="color:#8ab4ff;">https://github.com/ruyo/VRM4U/releases</a><br><br>
-8. Now, you can import the exported character into your UE5 project.<br><br>
-9.Drag and drop the VRM file into the Content Browser of your UE5 project.<br>
-</p>
-<p id="p3">That's it! You have successfully created an anime character using VRoid Studio and imported it into your UE5 project. You can now use the character in your game or animation.</p>
-<footer>
-  <p>Made by Garvit Singh — Vroid to UE4/UE5</p>
-  <p>17-year-old UE4 game developer with hands-on experience creating games and learning UE5.</p>
-  <p>Contact me: <a href="https://mailto:dhan07developer@gmail.com" style="color:#8ab4ff;">dhan07developer@gmail.com</a></p>
-  <p style="font-size:12px; color:#888;"> Garvit Singh - UEpedia</p>
-</footer>
 
-<div class="overlay" id="overlay" onclick="closeOverlay()">
-  <span>&times;</span>
-  <img id="largeImage" src="">
-</div>
-<script>
-// Click image to open lightbox
-function showImage(src) {
-    document.getElementById("overlay").style.display = "flex";
-    document.getElementById("largeImage").src = src;
+  <p style="white-space: pre-line;">
+  After downloading and installing VRoid Studio, follow these steps to create your anime character: <br>
+  1. Open the VRoid Studio application. <br>
+  2. Click on the "Create Character" button. <br>
+  <img src="Capturevr.PNG" alt="VRoid Studio" id="Vroid" onclick="showImage(this.src)"><br><br>
+  3. In the character creation window, click on the "Create" button. <br><br>
+  4. Once the character is created, export it in the VRM format.<br><br>
+  5. To export the character, go to "Export as VRM".<br><br>
+  <img src="Capturex.PNG" alt="VRoid Studio" id="Vroid" onclick="showImage(this.src)"><br><br>
+  6. Save the file to your desired location.<br><br>
+  7. Install the VRM4U plugin in your UE5 project. You can download it from:
+  <a href="https://github.com/ruyo/VRM4U/releases" target="_blank" style="color:#8ab4ff;">https://github.com/ruyo/VRM4U/releases</a><br><br>
+  8. Now, import the exported character into your UE5 project.<br><br>
+  9. Drag and drop the VRM file into the Content Browser of your UE5 project.<br>
+  </p>
+
+  <p id="p3">That's it! You have successfully created an anime character using VRoid Studio and imported it into your UE5 project.</p>
+
+  <footer>
+    <p>Made by Garvit Singh — Vroid to UE4/UE5</p>
+    <p>17-year-old UE4 game developer with hands-on experience creating games and learning UE5.</p>
+    <p>Contact me: <a href="mailto:dhan07developer@gmail.com" style="color:#8ab4ff;">dhan07developer@gmail.com</a></p>
+    <p style="font-size:12px; color:#888;">Garvit Singh - UEpedia</p>
+  </footer>
+
+  <div class="overlay" id="overlay" onclick="closeOverlay()">
+    <span>&times;</span>
+    <img id="largeImage" src="">
+  </div>
+
+  <script>
+  // Click image to open lightbox
+  function showImage(src) {
+      document.getElementById("overlay").style.display = "flex";
+      document.getElementById("largeImage").src = src;
   }
   function closeOverlay() {
-    document.getElementById("overlay").style.display = "none";
+      document.getElementById("overlay").style.display = "none";
   }
-</script>
+  </script>
 </body>
 </html>
